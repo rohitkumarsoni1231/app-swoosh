@@ -121,6 +121,9 @@
                                             <fontDescription key="titleFontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                             <color key="baseForegroundColor" red="0.97089823860000002" green="1" blue="0.95589384550000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onMenstapped:" destination="5zZ-c5-jHK" eventType="touchUpInside" id="u4w-lo-dcP"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QxU-no-KwE" customClass="BorderButton" customModule="app_swoosh" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="70" width="374" height="45"/>
@@ -133,6 +136,9 @@
                                             <fontDescription key="titleFontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                             <color key="baseForegroundColor" red="0.97089823860000002" green="1" blue="0.95589384550000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onWomensTapped:" destination="5zZ-c5-jHK" eventType="touchUpInside" id="1hL-jD-eib"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FZc-hH-flw" customClass="BorderButton" customModule="app_swoosh" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="140" width="374" height="45"/>
@@ -145,6 +151,9 @@
                                             <fontDescription key="titleFontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                             <color key="baseForegroundColor" red="0.97089823860000002" green="1" blue="0.95589384550000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onCoTapped:" destination="5zZ-c5-jHK" eventType="touchUpInside" id="gOB-Fr-nQr"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -212,6 +221,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="vk6-iY-7rW"/>
                     <connections>
+                        <outlet property="coed" destination="FZc-hH-flw" id="ZDB-la-de3"/>
+                        <outlet property="mens" destination="4YX-kL-Rzf" id="nC2-su-qB1"/>
+                        <outlet property="nextBtn" destination="Kuz-fd-hAS" id="qBf-tf-tph"/>
+                        <outlet property="womens" destination="QxU-no-KwE" id="8yE-yN-Cya"/>
                         <segue destination="7Hj-nt-O7h" kind="show" identifier="skillVCSegue" id="PPV-Cg-cMc"/>
                     </connections>
                 </viewController>

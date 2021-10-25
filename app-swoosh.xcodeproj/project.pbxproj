@@ -16,6 +16,7 @@
 		FA63DACA27242303005B4BDB /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63DAC927242303005B4BDB /* BorderButton.swift */; };
 		FA80E5622726DF2200F19186 /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA80E5612726DF2200F19186 /* LeagueVC.swift */; };
 		FA80E5642726DF7C00F19186 /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA80E5632726DF7C00F19186 /* SkillVC.swift */; };
+		FA80E5692726EB0A00F19186 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA80E5682726EB0A00F19186 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		FA63DAC927242303005B4BDB /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 		FA80E5612726DF2200F19186 /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
 		FA80E5632726DF7C00F19186 /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
+		FA80E5682726EB0A00F19186 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		FA63DA9527240847005B4BDB /* app-swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				FA80E5672726EAE500F19186 /* Model */,
 				FA80E5602726DE4500F19186 /* Controller */,
 				FA63DAC827242295005B4BDB /* Views */,
 				FA63DA9627240847005B4BDB /* AppDelegate.swift */,
@@ -90,6 +93,14 @@
 				FA80E5632726DF7C00F19186 /* SkillVC.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		FA80E5672726EAE500F19186 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA80E5682726EB0A00F19186 /* Player.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +178,7 @@
 				FA63DA9727240847005B4BDB /* AppDelegate.swift in Sources */,
 				FA63DA9927240847005B4BDB /* SceneDelegate.swift in Sources */,
 				FA63DACA27242303005B4BDB /* BorderButton.swift in Sources */,
+				FA80E5692726EB0A00F19186 /* Player.swift in Sources */,
 				FA80E5642726DF7C00F19186 /* SkillVC.swift in Sources */,
 				FA80E5622726DF2200F19186 /* LeagueVC.swift in Sources */,
 			);
